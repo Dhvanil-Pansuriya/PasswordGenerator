@@ -50,7 +50,7 @@ function App() {
           id="uInput"
           value={password}
           ref={passwordRef}
-          className="w-96 h-10 px-6 border border-2 border-gray-500 rounded rounded-r-none rounded-xl text-yellow-950 font-semibold"
+          className="w-90 h-10 px-6 border border-2 border-gray-500 rounded rounded-r-none rounded-xl text-yellow-950 font-semibold"
           readOnly
         />
         <button
@@ -62,12 +62,12 @@ function App() {
         <button
           onClick={copyToClipBoard}
           className="bg-gray-400 h-10 border border-2 border-gray-500 rounded rounded-l-none rounded-xl p-2 w-28 hover:font-mono hover:bg-gray-700"
-          style={{backgroundColor:"white"}}
+          style={{ backgroundColor: "white" }}
         >
           <b>Copy </b>
         </button>
       </div>
-      <div className="sContainer flex justify-center">
+      <div className="sContainer ">
         <div className="first mx-7 flex justify-center">
           <input
             type="range"
